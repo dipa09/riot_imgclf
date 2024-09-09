@@ -1,15 +1,14 @@
 This project implements an image classifier using the [DeepWeeds](https://gi\thub.com/AlexOlsen/DeepWeeds) dataset,
-which contains more that 8000 images of 8 different weeds' species.\n
-The goal is to evaluate the performance of some TinyML libraries on RIOT OS.\n
+which contains more that 8000 images of 8 different weeds' species.
+
+The goal is to evaluate the performance of some TinyML libraries on RIOT OS.
+
 
 The libraries that have been selected are:
 [emlearn](https://github.com/emlearn/emlearn),
 [micromlgen](https://github.com/eloquentarduino/micromlgen) and
 [m2cgen](https://github.com/BayesWitnesses/m2cgen)
 and they have been tested on Arduino Mega and ESP32-CAM boards.
-
-
-![alt text](./data/operations.jpg)
 
 
 ## Dependencies
@@ -54,13 +53,18 @@ $ make flash [BOARD=...]
 ```
 
 The preapration, extraction and training steps can be customized, that's why the workflow is
-so fragmented. Please use `--help` for more information on how to use the various tools.\n
+so fragmented. Please use `--help` for more information on how to use the various tools.
+
 Reading the [RIOT documentation](https://api.riot-os.org/creating-an-application.html) for creating
 new apps is also recommended.
 
+## Operations
+![alt text](./data/operations.jpg)
+
 
 ## Tested version
-This project has been tested using the following packages' versions.\n
+This project has been tested using the following packages' versions.
+
 If you have issues try to install the specific package version.
 
 | Package       | Version   |
