@@ -1,0 +1,13 @@
+DeepWeed*
+__pycache__
+model
+main
+model.h
+labels.h
+features
+features.h
+driver
+*.so
+*.o
+.emacs.desktop
+.emacs.desktop.lock

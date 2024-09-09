@@ -1,0 +1,10 @@
+emlearn
+h5py
+joblib
+m2cgen
+mahotas
+matplotlib
+micromlgen
+numpy
+opencv-python
+scikit-learn
