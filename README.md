@@ -1,4 +1,4 @@
-This project implements an image classifier using the [DeepWeeds](https://gi\thub.com/AlexOlsen/DeepWeeds) dataset,
+This project implements an image classifier using the [DeepWeeds](https://github.com/AlexOlsen/DeepWeeds) dataset,
 which contains more that 8000 images of 8 different weeds' species.
 
 The goal is to evaluate the performance of some TinyML libraries on RIOT OS.
